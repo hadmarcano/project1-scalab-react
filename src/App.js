@@ -45,7 +45,8 @@ class App extends React.Component {
     });
   }
 
-  // ciclo de vida: desmontado
+  // ciclo de vida:
+  // desmontado
   componentWillUnmount() {
     this.unsubcribeFromAuth();
   }
