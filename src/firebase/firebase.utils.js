@@ -47,6 +47,6 @@ export const firestore = firebase.firestore(); // firestore: todo lo que es apun
 // config providers
 const provider = new firebase.auth.GoogleAuthProvider();
 provider.setCustomParameters({ prompt: "select_account" });
-export const signInWithGoolgle = () => auth.signInWithPopup(provider);
+export const signInWithGoogle = () => auth.signInWithPopup(provider);
 
 export default firebase;
